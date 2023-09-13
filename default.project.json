@@ -1,0 +1,120 @@
+{
+  "name": "ZombieMania",
+  "tree": {
+    "$className": "DataModel",
+    "Chat": {
+      "$properties": {
+        "BubbleChatEnabled": {
+          "Bool": true
+        }
+      }
+    },
+    "HttpService": {
+      "$properties": {
+        "HttpEnabled": {
+          "Bool": true
+        }
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Brightness": 2.0,
+        "FogColor": {
+          "Color3": [
+            0.75,
+            0.75,
+            0.75
+          ]
+        },
+        "Ambient": {
+          "Color3": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "OutdoorAmbient": {
+          "Color3": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        "Technology": {
+          "Enum": 2
+        },
+        "ClockTime": 14.0
+      },
+      "$path": "./temp/lighting"
+    },
+    "MaterialService": {
+      "$className": "MaterialService",
+      "$properties": {
+        "Use2022MaterialsXml": {
+          "Bool": false
+        }
+      }
+    },
+    "Players": {
+      "$properties": {
+        "CharacterAutoLoads": false
+      }
+    },
+    "ReplicatedStorage": {
+      "Common": {
+        "$path": "src/shared"
+      },
+      "LocalPackages": {
+        "$path": "./LocalPackages"
+      },
+      "Packages": {
+        "$path": "./Packages"
+      },
+      "$path": "./temp/replicatedStorage"
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      },
+      "ServerPackages": {
+        "$path": "./ServerPackages"
+      },
+      "$path": "./temp/serverScriptService"
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$path": "./temp/serverStorage"
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    },
+    "StarterPlayer": {
+      "StarterCharacterScripts": {
+        "$path": "./temp/starterCharacterScripts"
+      },
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        },
+        "$path": "./temp/starterPlayerScripts"
+      }
+    },
+    "TextChatService": {
+      "$properties": {
+        "ChatVersion": {
+          "Enum": 1
+        }
+      },
+      "$ignoreUnknownInstances": true
+    },
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "$ignoreUnknownInstances": true,
+      "$path": "./temp/workspace"
+    }
+  }
+}

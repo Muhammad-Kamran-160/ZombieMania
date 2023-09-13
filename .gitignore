@@ -1,0 +1,26 @@
+# Project place file
+/ZombieMania.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+# Wally Packages
+/Packages
+/ServerPackages
+
+# Added by cargo
+
+/target
+
+# Manual
+sourcemap.json
+wally.lock
+sourcemap.json
+temp
+sourcemap.json
+place.rbxl
+publish.bat
+upt2.rbxl
+wally.lock
+testing.rbxl

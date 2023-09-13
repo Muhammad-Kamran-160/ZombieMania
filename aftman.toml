@@ -1,0 +1,4 @@
+[tools]
+wally = "UpliftGames/wally@0.3.1"
+rojo = "UpliftGames/rojo@7.2.2-uplift.release.9"
+remodel = "UpliftGames/remodel@0.12.0-uplift.release.12"
